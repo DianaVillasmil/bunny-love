@@ -1,0 +1,86 @@
+
+/*#ecf7fb fondo
+#037f99 fondo2
+#ecf7fb fondo3*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Prompt', sans-serif;
+	color: #ecf7fb;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, .logo, .logo .love {
+	font-family: 'Baloo Paaji', cursive;
+}
+
+nav {
+	background-color: #037f99;
+}
+
+nav .grid {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav .logo {
+	font-size: 2em;
+	font-style: bold;
+	margin: auto 0;
+}
+
+nav .logo .love {
+	color: #ff7673;
+}
+
+nav .menu {
+	display: flex;
+	margin: auto 0;
+}
+
+nav .menu li {
+	padding: 30px 10px;
+	list-style: none;
+}
+
+nav .menu li a {
+	font-weight: lighter;
+}
+
+header {
+	background-image: url(../../img/img-1.jpg);
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+header .cuadro {
+	margin: 50px 100px;
+	padding: 50px;
+	background-color: rgba(3, 127, 153, .8);
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+header .cuadro h1 {
+	font-size: 5em;
+	color: #ff7673;
+	margin: 0 auto;
+}
+
+header .cuadro ul {
+	display: flex;	
+	margin: 0 auto;
+
+}
+
+header .cuadro ul li {
+	list-style: none;
+	font-style: italic;
+	padding: 10px;
+}
