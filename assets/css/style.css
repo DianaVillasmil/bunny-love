@@ -10,6 +10,10 @@
 	color: #ecf7fb;
 }
 
+body {
+	background-color: #ecf7fb;
+}
+
 a {
 	text-decoration: none;
 }
@@ -84,3 +88,55 @@ header .cuadro ul li {
 	font-style: italic;
 	padding: 10px;
 }
+
+section {
+	background-color: white;
+	display: flex;
+}
+
+section img {
+	width: 100%; 
+}
+
+section .img4 {
+	background-color: #037f99;
+	height: 100%;
+}
+
+section {
+	padding: 20px;
+}
+
+section h5 {
+	color: #ff7673;
+	font-size: 1.3em;
+}
+
+section .img4 h5, section .img4 p {
+	text-align: center;
+	padding: 10px;
+}
+
+#conejito1 {
+	background-image: url(../../img/img-1.jpg); 
+}
+
+#conejito2 {
+	background-image: url(../../img/img-2.jpg); 
+}
+
+#conejito3 {
+	background-image: url(../../img/img-3.jpg); 
+}
+
+#conejito4 {
+	background-image: url(../../img/img-4.jpg); 
+}
+
+#conejito1, #conejito2, #conejito3, #conejito4 {
+	background-size: cover;
+	background-position: center;
+	padding: 100px; 
+}
+
+
