@@ -139,4 +139,12 @@ section .img4 h5, section .img4 p {
 	padding: 100px; 
 }
 
+footer {
+	background-color: #037f99;
+	color:  #ff7673;
+	padding: 20px;
+	border-top: 3px solid #ff7673;
+	text-align: center;
+	font-family: 'Prompt', sans-serif;
+}
 
