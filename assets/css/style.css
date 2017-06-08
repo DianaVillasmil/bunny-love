@@ -22,6 +22,12 @@ h1, h2, h3, h4, h5, h6, .logo, .logo .love {
 	font-family: 'Baloo Paaji', cursive;
 }
 
+h5 {
+	color: #ff7673;
+	font-size: 1.3em;
+	text-align: center;
+}
+
 nav {
 	background-color: #037f99;
 }
@@ -89,30 +95,25 @@ header .cuadro ul li {
 	padding: 10px;
 }
 
-section {
+#first-section {
 	background-color: white;
 	display: flex;
 }
 
-section img {
+#first-section img {
 	width: 100%; 
 }
 
-section .img4 {
+#first-section .img4 {
 	background-color: #037f99;
 	height: 100%;
 }
 
-section {
+#first-section {
 	padding: 20px;
 }
 
-section h5 {
-	color: #ff7673;
-	font-size: 1.3em;
-}
-
-section .img4 h5, section .img4 p {
+#first-section .img4 h5, #first-section .img4 p {
 	text-align: center;
 	padding: 10px;
 }
@@ -139,6 +140,72 @@ section .img4 h5, section .img4 p {
 	padding: 100px; 
 }
 
+
+#two-cols {
+	display: flex;
+	background-color: #037f99;
+}
+
+#two-cols > * {
+	padding-bottom: 20px;
+}
+
+#two-cols > div > div {
+	width: 100%;
+	background-color: #ecf7fb;
+	text-align: justify;
+}
+
+#two-cols > div > div:not(:first-child) {
+	margin-top: 20px;
+}
+
+#two-cols > div div p {
+	color: #191f27;
+}
+
+#two-cols > div div div {
+	padding: 20px;
+}
+
+#two-cols > div div div.aspectfix {
+	width: 100%;
+	padding: 0;
+	padding-bottom: 56.25%;
+	position: relative;
+}
+
+#two-cols > div div div.aspectfix iframe {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+
+#two-cols > div h6 {
+	color: #191f27;
+	font-size: 1.3em;
+}
+
+#two-cols > div div img {
+	width: 100%;
+}
+
+.conejitos{
+	background-image: url(../../img/bunny-head.png);
+	background-size: contain;
+	padding: 55px;
+}
+
+#two-cols input {
+	width: 100%;
+	background-color: #ecf7fb;
+	border-radius: 10px;
+	padding: 20px;
+	border-style: white;
+}
 footer {
 	background-color: #037f99;
 	color:  #ff7673;
